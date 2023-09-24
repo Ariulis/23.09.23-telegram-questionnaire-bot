@@ -1,4 +1,12 @@
 [[package]]
+name = "aiocsv"
+version = "1.2.4"
+description = "Asynchronous CSV reading/writing"
+category = "main"
+optional = false
+python-versions = ">=3.6, <4"
+
+[[package]]
 name = "aiofiles"
 version = "23.1.0"
 description = "File support for asyncio."
@@ -280,9 +288,10 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "390019c81a8775a85f1187dba2bfe4852f62b0ccc7ed7414f967193238c3ddee"
+content-hash = "afa15d2d97ea45646ac89b7ca81d494da70028784339ca941f5e66a5d702aca8"
 
 [metadata.files]
+aiocsv = []
 aiofiles = []
 aiogram = []
 aiohttp = []
